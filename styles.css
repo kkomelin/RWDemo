@@ -1,0 +1,52 @@
+/* основные стили */
+html { font-family: Arial, helvetica, sans-serif; font-size: 1.5em; }
+.page { margin: 0 auto; }
+.content { float:left; background-color: #ddd; }
+.content h1 { text-align: center; }
+.left, .right { background-color: #eee; }
+.left { float:left; text-align: center; }
+.right { float:right; }
+.right h2 { margin-left:20px; }
+.right ul { margin-left:20px; }
+
+.page {
+  width: 960px;
+}
+
+.content {
+  width: 960px;
+}
+
+.left,
+.right {
+  width: 480px;
+}
+
+/* 1. плавающая сетка */
+/*.page {*/
+  /*width:auto;*/
+  /*max-width: 960px;*/
+/*}*/
+
+/*.content {*/
+  /*width: 100%;*/
+/*}*/
+
+/*.left,*/
+/*.right {*/
+  /*width: 50%;*/
+/*}*/
+
+/* 2. медиа правила */
+/*@media all and (max-width:960px) {*/
+  /*.left,*/
+  /*.right {*/
+    /*width: 100%;*/
+    /*float:none;*/
+  /*}*/
+/*}*/
+
+/* 3. Гибкие изображения */
+/*img {*/
+  /*max-width: 100%;*/
+/*}*/
