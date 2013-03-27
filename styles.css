@@ -4,11 +4,10 @@ html { font-family: Arial, helvetica, sans-serif; font-size: 1.5em; }
 .content { float:left; background-color: #ddd; }
 .content h1 { text-align: center; }
 .left, .right { background-color: #eee; }
-.left { float:left; text-align: center; }
-.right { float:right; }
-.right h2 { margin-left:20px; }
-.right ul { margin-left:20px; }
+.left { text-align: center; }
+.right h2, .right ul { margin-left:20px; }
 
+/* 0. Фиксированная сетка */
 .page {
   width: 960px;
 }
@@ -20,6 +19,14 @@ html { font-family: Arial, helvetica, sans-serif; font-size: 1.5em; }
 .left,
 .right {
   width: 480px;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
 }
 
 /* 1. плавающая сетка */
